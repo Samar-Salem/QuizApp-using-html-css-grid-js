@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+<!-- Welcome Form -->
+    <div class="welcome">
+        <div id="start">
+            <h3>Welcome To Quiz</h3>
+            <p>This is a quiz application built using JS. </p>
+            <button id="startBtn">Start</button>
+        </div>
+    </div>
+
+
+
+    <!-- Quiz Form -->
+<div class="quiz-container">
+
+<header id="quizHead">
+<h2>Question</h2>
+<h6 id="question"> </h6>
+</header>
+
+<section class="answers bg-warning" id="answers-container">
+
+</section>
+
+
+<footer>
+    <button class="nextBtn">Next Question</button>
+</footer>
+</div>
+
+
+<!-- Complete Form -->
+<div class="complete">
+    <div id="end">
+         <h3>Congratulations!</h3> 
+         <p>You have completed the quiz. </p>
+          <p id="score"></p>
+        
+        <!-- <button id="quitBtn">Exit</button> -->
+    </div>
+</div>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
